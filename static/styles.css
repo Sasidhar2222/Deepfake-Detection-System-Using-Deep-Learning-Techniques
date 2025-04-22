@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for content */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #2e2e2e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: yellow;
+    font-size: 24px;
+}
+
+/* File upload button */
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Submit button */
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+/* Uploaded image styling */
+img {
+    width: 80%;
+    max-height: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 3px solid #ddd;
+}
+
+/* Result Box */
+.result-box {
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Green for Real, Red for Fake */
+.real {
+    background-color: #28a745;
+    color: white;
+}
+
+.fake {
+    background-color: #dc3545;
+    color: white;
+}
+
+/* Confidence percentage */
+.confidence {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Back Button */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: darkblue;
+}
